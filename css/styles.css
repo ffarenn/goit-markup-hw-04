@@ -36,6 +36,7 @@ img {
   --background-color: #e5e5e5;
   --hero-footer-background: #2f303a;
   --radio-button-section-background: #f5f4fa;
+  --border-color: #eeeeee;
   --icon-color: #afb1b8;
   --footer-contact-link-color: rgba(255, 255, 255, 0.6);
   --logo-top-color: #000000;
@@ -650,12 +651,6 @@ body {
   margin-bottom: 30px;
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
-  background: var(--accent-color);
-  color: var(--h1-button-text-color);
-}
-
 /* .portfolio-link:hover,
 .portfolio-link:focus {
   color: #2196f3;
@@ -674,7 +669,7 @@ body {
 
 .description {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-color);
   border-top: none;
 }
 
@@ -694,10 +689,13 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto; */
+.portfolio-item:hover,
+.portfolio-item:focus {
+  background: var(--h1-button-text-color);
+  border: 1px solid var(--border-color);
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 /* ======== Portfolio section END ======== */

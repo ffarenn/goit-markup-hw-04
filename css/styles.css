@@ -492,28 +492,22 @@ body {
   border-radius: 4px;
 }
 
-.icon-link-clients {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.client-link {
+/* .client-link {
   display: block;
-}
+} */
 
 .icon-link-clients {
   fill: var(--icon-color);
 }
 
-.client-link:hover,
-.client-link:focus {
-  color: var(--accent-color);
-}
-
 .icon-link-clients:hover,
 .icon-link-clients:focus {
   fill: currentColor;
+}
+
+.client-link:hover,
+.client-link:focus {
+  color: var(--accent-color);
 }
 
 /* ======== END OUR TEAM SECTION ======== */

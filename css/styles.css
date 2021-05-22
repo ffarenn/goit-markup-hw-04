@@ -301,23 +301,6 @@ body {
   background: var(--radio-button-section-background);
   border-radius: 4px;
 }
-/* 
-.advantages-item::before {
-  content: "";
-  width: 270px;
-  height: 120px;
-  display: block;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background: var(--radio-button-section-background);
-  border-radius: 4px;
-} */
-
-/* .icon-attention::before {
-  background-image: url(./images/icons.svg/symbol-defs.svg#facebook);
-  background-repeat: no-repeat;
-} */
 
 .advantages-item {
   width: 270px;
@@ -491,10 +474,6 @@ body {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
-
-/* .client-link {
-  display: block;
-} */
 
 .icon-link-clients {
   fill: var(--icon-color);

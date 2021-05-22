@@ -464,7 +464,7 @@ body {
   margin-top: 50px;
 }
 
-.clients-item {
+.client-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -487,6 +487,7 @@ body {
 .client-link:hover,
 .client-link:focus {
   color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* ======== END OUR TEAM SECTION ======== */
@@ -592,6 +593,9 @@ body {
 .r-button:focus {
   background: var(--accent-color);
   color: var(--h1-button-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .r-button .link:active,
@@ -623,14 +627,6 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-
-/* .portfolio-link:hover,
-.portfolio-link:focus {
-  color: #2196f3;
-  border: 1px solid #eeeeee;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
 
 .portfolio-item:nth-child(3n) {
   margin-right: 0;

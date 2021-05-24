@@ -407,6 +407,9 @@ body {
 }
 
 .social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 16px;
   padding-left: 32px;
   padding-right: 32px;
@@ -432,6 +435,10 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: var(--h1-button-text-color);
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-list-link:hover,
@@ -464,30 +471,34 @@ body {
   margin-top: 50px;
 }
 
-.client-link {
+.clients-item {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
 }
+
+.client-link {
+display: flex;
+  justify-content: center;
+  align-items: center; */
+} 
 
 .icon-link-clients {
   fill: var(--icon-color);
 }
 
-.icon-link-clients:hover,
-.icon-link-clients:focus {
-  fill: currentColor;
+.clients-item:hover,
+.clients-item:focus {
+  border-color: var(--accent-color);
 }
 
-.client-link:hover,
-.client-link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+.clients-item:hover .icon-link-clients,
+.clients-item:focus .icon-link-clients {
+  fill: var(--accent-color);
 }
 
 /* ======== END OUR TEAM SECTION ======== */
@@ -502,6 +513,7 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
   padding: 60px 15px;
 }
 
@@ -571,10 +583,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/* .radio-button-item {
-  display: inline;
-} */
 
 .radio-button-item:not(:last-child) {
   margin-right: 8px;
@@ -661,8 +669,6 @@ body {
 .portfolio-item:hover,
 .portfolio-item:focus {
   background: var(--h1-button-text-color);
-  border: 1px solid var(--border-color);
-  box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }

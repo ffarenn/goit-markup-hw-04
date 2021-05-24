@@ -199,11 +199,6 @@ body {
   fill: var(--accent-color);
 }
 
-/* .email-link:hover,
-.email-link:focus {
-  color: var(--accent-color);
-} */
-
 /* ======== END CONTACTS ======== */
 /* END HEADER */
 
@@ -475,29 +470,29 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
-  height: 92px;
-  border: 1px solid var(--icon-color);
-  border-radius: 4px;
 }
 
 .client-link {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
 }
 
 .icon-link-clients {
   fill: var(--icon-color);
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.client-link:hover,
+.client-link:focus {
   border-color: var(--accent-color);
 }
 
-.clients-item:hover .icon-link-clients,
-.clients-item:focus .icon-link-clients {
+.client-link:hover .icon-link-clients,
+.client-link:focus .icon-link-clients {
   fill: var(--accent-color);
 }
 
@@ -668,6 +663,13 @@ body {
 
 .portfolio-item:hover,
 .portfolio-item:focus {
+  background: var(--h1-button-text-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
   background: var(--h1-button-text-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);

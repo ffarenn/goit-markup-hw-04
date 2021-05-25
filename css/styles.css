@@ -406,8 +406,8 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
+  /* padding-left: 32px;
+  padding-right: 32px; */
 }
 
 .social-list-item {
